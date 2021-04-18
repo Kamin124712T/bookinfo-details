@@ -1,7 +1,7 @@
 services:
   details:
     build: .
-    image: ghcr.io/kamin124712t/details:dev
+    image: ghcr.io/kamin124712t/bookinfo-details:dev
     ports:
       - "8080:8080"
     environment:
